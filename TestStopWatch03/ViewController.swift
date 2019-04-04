@@ -34,7 +34,6 @@ class ViewController: UIViewController {
             print("StartButton = \(myTimer.isValid)")
             changeBtnState(start: false, pause: true, stop: true)
         }
-
     }
     
     @IBAction func PauseBtn(_ sender: Any) {
